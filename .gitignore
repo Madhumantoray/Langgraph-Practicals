@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Local secrets or API keys
+*.env.local
+*.secret
+secrets.json
+
+# Temporary development files
+tmp/
+*.bak
+*.swp
+
+# Logs and debug files
+*.log
+logs/
+debug/
+
